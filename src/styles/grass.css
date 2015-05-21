@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('http://pixwalls.ninja/wp-content/uploads/2015/05/plasma-turbulence-web-background.jpg');
+  background-image: url('http://i.imgur.com/SYY2mJz.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -44,6 +44,7 @@ h1 {
 }
 
 #sidebar {
+  opacity: 0.8;
   float: left;
   padding: 23em 15em 3.5em;
   background-color: #8addaa;
@@ -51,6 +52,7 @@ h1 {
 }
 
 #worktable {
+  opacity: 0.8;
   float: right;
   padding: 23em 15em 3.5em;
   background-color: #8addaa;
