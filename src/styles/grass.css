@@ -58,3 +58,13 @@ h1 {
   background-color: #8addaa;
   margin: 7em 2em 0 0.5em;
 }
+
+h2 {
+  position:absolute;
+  margin: -15em -10em 0em -8em;
+}
+
+form {
+  position:absolute;
+  margin: -20em -10em 0em -14em;
+}
