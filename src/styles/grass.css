@@ -1,3 +1,4 @@
+
 body {
   background-image: url('http://pixwalls.ninja/wp-content/uploads/2015/05/plasma-turbulence-web-background.jpg');
   -webkit-background-size: cover;
@@ -5,6 +6,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
 #demo-header {
   background: rgba(55, 61, 73, 0.976) none repeat scroll 0 0;
   box-shadow: none;
@@ -19,6 +21,7 @@ body {
   width: 100%;
   z-index: 10000;
 }
+
 h1 {
   display: inline-block;
   float: left;
@@ -28,6 +31,7 @@ h1 {
   line-height: 2.75em;
   margin: -0.2em 1.25em 0 0.5em;
 }
+
 .right {
   display: inline-block;
   float: right;
@@ -38,18 +42,17 @@ h1 {
   line-height: 2.75em;
   margin: 1em 1.25em 0 0.5em;
 }
+
 #sidebar {
   float: left;
   padding: 23em 15em 3.5em;
   background-color: #8addaa;
   margin: 7em 1.25em 0 2em;
-
-
 }
+
 #worktable {
   float: right;
   padding: 23em 15em 3.5em;
   background-color: #8addaa;
   margin: 7em 2em 0 0.5em;
-
 }
