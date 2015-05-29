@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="icons/favicon.ico" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link type='text/css' rel='stylesheet' href='styles/grass.css'/>
+        <title>Local Wallet</title>
+        <meta charset='UTF-8'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js'></script>
+    </head>
+    <body>
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class="col-md-12" id='demo-header'>
+                    <div id='left'>
+                        <h1>Web Wallet</h1>
+                    </div>
+                    <div id='right'>
+                        <div id='clockbox'></div>
+                    </div>
+                </div>
+            </div>
+            <div class='row' id='twoblocks'>
+                <div class="col-md-6" id='sidebar'>
+                </div>
+                <div class="col-md-6" id='worktable'>
+                    <h2>How much did you spend today?</h2>
+                    <form id="myform" method="post" class="form-horizontal">
+                        Product: <input id='jopa' type="text" name="prod"/>
+                        Price: <input id='jopa2'  type="number" name="cost"/>
+                        <button id ='submit' type="button" class="btn btn-info ">Add!</button>
+                    </form>
+                    <br/>
+                    <div class="row-fluid">
+                        <table class='table table-hover'>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>ProductName</th>
+                                    <th>Price</th>
+                                    <th>Date</th>
+                                </tr>
+                            </thead>
+                        </table>
+                        <div  id="scorll">
+                            <table class='table table-hover' id="list"></table>
+                        </div>
+                    </div>
+                    <div style='display:inline-block; font-weight: 600;'>
+                        Total spend:
+                        <div style='display:inline-block; font-weight: 600;' class="total">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row' id='downbar'>
+                <div class='col-md-12' id='total'>
+                </div>
+            </div>
+        </div>
+        <script src='js/clock.js'></script>
+        <script src='js/addlist.js'></script>
+    </body>
+</html>
