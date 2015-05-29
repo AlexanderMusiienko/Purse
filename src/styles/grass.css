@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('http://i.imgur.com/SYY2mJz.png');
+  background-image: url('backg.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -26,45 +26,57 @@ h1 {
   display: inline-block;
   float: left;
   font-weight: 600;
+  font-size: xx-large;
   height: 2.75em;
   letter-spacing: -0.5px;
-  line-height: 2.75em;
-  margin: -0.2em 1.25em 0 0.5em;
+  padding-left: 15px;
+  margin-top:5px;
 }
 
-.right {
+#right {
   display: inline-block;
   float: right;
   color: #2dc0ea;
-  font-weight: 600;
+  font-weight: 800;
   height: 2.75em;
-  letter-spacing: -0.5px;
   line-height: 2.75em;
-  margin: 1em 1.25em 0 0.5em;
+  padding-right: 20px;
+  padding-top: 10px
 }
 
 #sidebar {
   opacity: 0.8;
-  float: left;
-  padding: 23em 15em 3.5em;
+  width: 700px;
   background-color: #8addaa;
-  margin: 7em 1.25em 0 2em;
+  height: 500px;
+  margin-top: 87px;
+  margin-left: 30px;
+  margin-right: 60px;
 }
 
 #worktable {
-  opacity: 0.8;
-  float: right;
-  padding: 23em 15em 3.5em;
+  opacity: 0.7;
+  width: 570px;
+  height: 500px;
   background-color: #8addaa;
-  margin: 7em 2em 0 0.5em;
+  margin-top: 87px;
 }
 
 h2 {
-  position:absolute;
-  margin: -15em -10em 0em -8em;
+
 }
 
 form {
   position:absolute;
-  margin: -20em -10em 0em -14em;
+}
+
+.table {
+  table-layout:fixed;
+  margin-top: 10px;
+}
+
+#scorll {
+  height: 330px;
+  overflow: auto;
+  margin-top:-18px;
 }
